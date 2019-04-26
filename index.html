@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <title>Factorial</title>
 </head>
 <body>
@@ -14,15 +15,19 @@
         <div class="header-container">
             <div class="logo">
                 <p class="n">n!</p>
+                <div class="name-container">
+                    <div class="name"><p>Факториал</p></div>
+                    <div class="name2"><p>Бухгалтерские услуги</p></div>
+                </div>
             </div>
             <input type="checkbox" id="menu-checkbox">
             <nav role="navigation">
                 <label for="menu-checkbox" class="toggle-button" data-open="MENU" data-close="Close" onclick></label>
                 <ul class="main-menu">
-                    <li><a href="#">О НАС</a></li>
-                    <li><a href="#">УСЛУГИ</a></li>
+                    <li><a href="#about">О НАС</a></li>
+                    <li><a href="#services">УСЛУГИ</a></li>
                     <!-- <li><a href="#">ОТЗЫВЫ</a></li> -->
-                    <li><a href="#">КОНТАКТЫ</a></li>
+                    <li><a href="#contacts">КОНТАКТЫ</a></li>
                 </ul>    
             </nav>
         </div>
@@ -30,17 +35,16 @@
     <main>
         <section class="top-slide">
             <div class="top-container">
-                <div><h2>Lorem ipsum dolor sit</h2></div>
-                <div><h2>amet, consectetur adipisicing elit</h2></div>
-                <div><p>Sunt quam nemo tempore</p></div>
-                <div><p>libero fugiat voluptates repudiandae</p></div>
-                <div><p>magni porro vero pariatur eum quas!</p></div>
+                <div><h2>СОВРЕМЕННАЯ БУХГАЛТЕРИЯ</h2></div>
+                <div><p>БУХГАЛТЕРСКОЕ ОБСЛУЖИВАНИЕ, КОНСУЛЬТИРОВАНИЕ И</p></div>
+                <div><p>СОПРОВОЖДЕНИЕ ОГРАНИЗАЦИЙ</p></div>
             </div>
         </section>
         <section class="advantages">
             <div class="advantages-container">
-                <h3>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT</h3>
-                <p>fugiat voluptatem consectetur iure et porro id odio</p>
+                <a name="about"></a>
+                <h3>ПОЧЕМУ ВЫБИРАЮТ НАС?</h3>
+                <p>Что компания Факториал может предложить предпринимателям и организациям?</p>
 
                 <div class="advantages-cards">
                     <div class="card">
@@ -48,8 +52,8 @@
                                 <img src="img/calculator.jpg" alt="">
                         </div>
                         <div class="bottom-card">
-                                <h2>Calculating</h2>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis praesentium laborum autem pariatur, explicabo natus quae consectetur voluptate sit qui dolores. Explicabo eveniet vitae ipsam, dicta aperiam recusandae labore fugiat.</p>
+                                <h2>Актуальность</h2>
+                                <p>Предлагаемые нами услуги полностью соответствуют всем современным реалиям бухгалтерского и налогового учёта. Мы всегда в курсе последних изменений законодательства.</p>
                         </div>
                     </div>
 
@@ -58,8 +62,8 @@
                                     <img src="img/hand.jpg" alt="">
                             </div>
                             <div class="bottom-card">
-                                    <h2>Calculating</h2>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis praesentium laborum autem pariatur, explicabo natus quae consectetur voluptate sit qui dolores. Explicabo eveniet vitae ipsam, dicta aperiam recusandae labore fugiat.</p>
+                                    <h2>Подход к клиенту</h2>
+                                    <p>Каждому нашему клиенту мы предлагаем только реально интересные и актуальные для него услуги.</p>
                             </div>
                         </div>
 
@@ -68,8 +72,8 @@
                                     <img src="img/team.jpg" alt="">
                             </div>
                             <div class="bottom-card">
-                                    <h2>Calculating</h2>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis praesentium laborum autem pariatur, explicabo natus quae consectetur voluptate sit qui dolores. Explicabo eveniet vitae ipsam, dicta aperiam recusandae labore fugiat.</p>
+                                    <h2>Профессионализм</h2>
+                                    <p>На рынке мы с 2013 года. Основа компании - команда профессионалов, которые понимают какой должна быть современная бухгалтерия. Мы знаем и любим своё дело!</p>
                             </div>
                     </div>
 
@@ -78,8 +82,8 @@
                                     <img src="img/office.jpg" alt="">
                             </div>
                             <div class="bottom-card">
-                                    <h2>Calculating</h2>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis praesentium laborum autem pariatur, explicabo natus quae consectetur voluptate sit qui dolores. Explicabo eveniet vitae ipsam, dicta aperiam recusandae labore fugiat.</p>
+                                    <h2>Технологичность</h2>
+                                    <p>Мы пользуемся самыми современными и актуальными решениями и инструментами. Мы всегда на связи!</p>
                             </div>
                     </div>
                     
@@ -89,27 +93,29 @@
         </section>
         <section class="services">
             <div class="services-container">
-                <h2>We offer:</h2>
+                <a name="services"></a>
+                <h2>ШИРОКИЙ СПЕКТР АКТУАЛЬНЫХ БУХГАЛТЕРСКИХ УСЛУГ</h2>
                 <div class="services-block">
                     <ul class="service-list">
-                        <li> - dolor sit amet consectetur</li>
-                        <li> - perspiciatis tenetur</li>
-                        <li> - nulla dolorum dicta ea</li>
-                        <li> - rem laboriosam cupiditate</li>
-                        <li> - sint est commodi consequuntur</li>
+                        <li> - организация бухгалтерского и налогового учёта</li>
+                        <li> - восстановление бухгалтерского и налогового учёта</li>
+                        <li> - регистрация юридических лиц</li>
+                        <li> - бухгалтерское обслуживание</li>
+                        <li> - консультации по бухгалтерии и налоговому учёту</li>
                     </ul>
                 </div>
             </div>
         </section>
         <section class="contacts">
             <div class="contacts-container">
-                <h3>Contacts</h3>
+                <a name="contacts"></a>
+                <h3>КОНТАКТЫ</h3>
                 <div class="contacts-card">
                     <div class="contacts-img">
                     </div>
                     <div class="contacts-text">
-                            <p>Tel: <strong>355-533</strong></p>
-                            <p>Address: <strong>Somestreet st, 13-13</strong></p>
+                            <p>Тел: <strong>355-533</strong></p>
+                            <p>Адрес: <strong>Somestreet st, 13-13</strong></p>
                             <p>Email: <strong>email@box.com</strong></p>
                     </div>
                 </div>
