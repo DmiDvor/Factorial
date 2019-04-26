@@ -17,6 +17,10 @@ a{
     text-decoration: none;
 }
 
+a:visited{
+    color: #3b3b3b;
+}
+
 header{
     background: #f3f3f2;
 }
@@ -198,7 +202,7 @@ nav {
 .services-container{
     width: 100%;
     margin: 0 auto;
-    background: #487ecf9f;
+    background: #4286f4;
 }
 
 .services-container h2{
@@ -214,7 +218,7 @@ nav {
 }
 
 .service-list :hover{
-    color: #f34e4e;
+    color: #3b3b3b;
 }
 
 .services-block{
@@ -279,6 +283,27 @@ nav {
 .contacts-text p{
     font-style: italic;
 }
+
+#go-top {
+    position: fixed; 
+    bottom: 25px; 
+    right: 70px;
+    text-align: center;
+    cursor:pointer; 
+    display:none;
+    width: 80px;
+    height: 30px;
+    background: #3b3b3b;
+    line-height: 30px;
+    border-radius: 5px;
+    color: #f3f3f3;
+  }
+  
+#go-top:hover {
+    background:#f34e4e;
+}
+
+
 
 
 
